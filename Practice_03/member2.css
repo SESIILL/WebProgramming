@@ -1,0 +1,18 @@
+table{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.orange{
+    background-color: #ffdab9;
+    padding: 5px 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+}

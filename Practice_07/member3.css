@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+}
+
+table, tr, td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+table, form{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.gray{
+    background-color: #ececec;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+}

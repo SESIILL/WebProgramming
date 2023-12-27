@@ -1,0 +1,37 @@
+<!-- 경영학과 / 20200415 / 손채연 / 크롬 -->
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <script>
+            function calc(){
+                var exp = prompt("계산할 수식을 입력하세요.");
+                if (exp != null) {
+                    var result = eval(exp);
+                    alert(result);
+                }
+            }
+        </script>
+    </head>
+    
+    <body>
+        <form name="calculator">
+            <table>
+                <tr>
+                    <td class="blue" colspan="2"><b><i>CalCuLaTor</i></b></td> 
+                </tr>
+                <tr>
+                    <td><img src="image/cal.jpg" class=""></td>
+                    <td id="button"><input type="button" value="계산하기" onclick="calc()"></td>
+                </tr>
+                <tr>
+                    <td class="blue" colspan="2"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+table, tr, td{
+    border: solid black 1px;
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+td{
+    width: 100px;
+    height: 50px;
+}
+
+.day, caption{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+caption{
+    padding: 10px;
+}
+
+.yellow{
+    background-color: #ffe08c;
+}
+
+.blue{
+    background-color: #b2ccff;
+}
+
+.gray{
+    background-color: #bdbdbd;
+}
