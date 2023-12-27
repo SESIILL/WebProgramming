@@ -1,0 +1,21 @@
+table, tr, td{
+    border: solid 1px lightgray;
+    border-collapse: collapse;
+}
+
+.blue{
+    width: 350px;
+    height: 70px;
+    background-color: #32ccfe;
+    font-size: 50px;
+    text-align: center;
+}
+
+#button{
+    padding: 30px;
+}
+
+form{
+    width: 350px;
+    margin: 0 auto;
+}

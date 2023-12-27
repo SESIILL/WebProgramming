@@ -1,0 +1,49 @@
+<!-- 경영학과 / 20200415 / 손채연 / 크롬 -->
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>member1</title>
+        <link rel="stylesheet" href="member1.css">
+    </head>
+    
+    <body>
+        <img src="image/eclass_title.jpg" class="eclass_title">
+        <h1>로그인</h1>
+        <hr>
+        <form name="frm1">
+            <table>
+                <tr>
+                    <td rowspan="5"><img src="image/eclass_logo.png"></td>
+                    <td colspan="2"><b>회원님의 아이디와 비밀번호를 정확히 입력하세요.</b></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <select name="type">
+                            <option value=1 selected>학부생</option>
+                            <option value=2>대학원생</option>
+                            <option value=3>교직원</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>아이디</b></td>
+                    <td><input type="text" name="id" size="15" maxlength="15" class="yellow"></td>
+                </tr>
+                <tr>
+                    <td><b>비밀번호</b></td>
+                    <td><input type="password" name="pwd" size="15" maxlength="15" class="yellow"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="로그인">
+                        <input type="button" value="가입하기" onclick="document.location='member2.html'">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
